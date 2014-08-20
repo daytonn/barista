@@ -10,8 +10,7 @@ Features
 
 * Automatically `update` before every `install` or `upgrade`
 * Automatically `cleanup` after every `install` of `upgrade`
-* Save a cache of all your brewed applications to easily reinstall later
-* Reinstall cached applications with one command
+* Save a list of all your brewed applications
 
 Installation
 ------------
