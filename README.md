@@ -47,7 +47,7 @@ source ~/path/to/barista/barista.sh
 Configuration
 -------------
 
-The following environment variables are used to configure Barista's behavior:
+The following environment variables are used to configure Barista's behavior (baptize users can put this in their `.holywater` file):
 
 ### $BARISTA\_CACHE\_INSTALLED
 _default: yes*_
