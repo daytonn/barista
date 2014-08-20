@@ -31,3 +31,23 @@ load test_helper
   source "$ROOT/barista.sh"
   [ "$BARISTA_AUTO_CLEANUP" == "no" ]
 }
+
+@test "it has an cache file variable" {
+  [ "$BARISTA_CACHE_FILE" == "app_cache.txt" ]
+}
+
+@test "it defers if the cache file variable is set" {
+  BARISTA_CACHE_FILE="test.txt"
+  source "$ROOT/barista.sh"
+  [ "$BARISTA_CACHE_FILE" == "test.txt" ]
+}
+
+@test "it has an cache dir variable" {
+  [ "$BARISTA_CACHE_DIR" == "$LIB" ]
+}
+
+@test "it defers if the cache dir variable is set" {
+  BARISTA_CACHE_DIR="$HOME"
+  source "$ROOT/barista.sh"
+  [ "$BARISTA_CACHE_DIR" == "$HOME" ]
+}
