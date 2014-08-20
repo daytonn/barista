@@ -1,6 +1,8 @@
 Barista
 =======
 
+![](https://raw.githubusercontent.com/daytonn/barista/master/barista.jpg)
+
 Do you use [Homebrew](http://brew.sh) to install mac packages? Are you sick and tired of forgetting to type update before accidentally installing an old package? If so, Barista is for you!
 
 Features
