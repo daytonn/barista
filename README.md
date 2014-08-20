@@ -9,7 +9,7 @@ Features
 --------
 
 * Automatically `update` before every `install` or `upgrade`
-* Automatically `cleanup` after every `install` of `upgrade`
+* Automatically `cleanup` after every `install` or `upgrade`
 * Save a list of all your brewed applications
 
 Installation
